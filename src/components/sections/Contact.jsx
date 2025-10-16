@@ -8,9 +8,9 @@ import { Textarea } from '@/components/ui/textarea';
 import { useToast } from '@/hooks/use-toast';
 import emailjs from "emailjs-com";
 const socialLinks = [
-  { icon: FaGithub, href: 'https://github.com', label: 'GitHub' },
-  { icon: FaLinkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-  { icon: FaInstagram, href: 'https://instagram.com', label: 'Instagram' },
+  { icon: FaGithub, href: 'https://github.com/Aansa-123', label: 'GitHub' },
+  { icon: FaLinkedin, href: 'https://www.linkedin.com/in/aansa-rani-15546b360/', label: 'LinkedIn' },
+  { icon: FaInstagram, href: 'https://www.instagram.com/aansa644?igsh=a2Y1eWpkYmFoMWk0', label: 'Instagram' },
 ];
 
 export function Contact() {
@@ -194,7 +194,7 @@ export function Contact() {
                 <Input 
                   type="email" 
                    name="email"
-                  placeholder="your12.email@example.com" 
+                  placeholder="youremail12@gmail.com" 
                   required 
                   className="glass-card"
                 />

@@ -12,7 +12,7 @@ const projects = [
     category: 'fullstack',
     github: 'https://github.com/Aansa-123/ecommerce-frontend',
     demo: 'https://mern-ecommerce-frontend-gamma.vercel.app/',
-    image: '/download.png',
+    image: '/ecommerce.avif',
   },
   {
     title: 'Blog Website',
@@ -21,7 +21,7 @@ const projects = [
     category: 'fullstack',
     github: 'https://github.com/Aansa-123/mern-blog-frontend',
     demo: 'https://mern-stack-blog-website.netlify.app/',
-    image: '/blog.png',
+    image: '/blog.avif',
   },
   {
     title: 'Loan Website',
@@ -30,7 +30,7 @@ const projects = [
     category: 'fullstack',
     github: 'https://github.com/Aansa-123/Loan-Website',
     demo: 'https://loan-website-pi.vercel.app/',
-    image: '/loan.png',
+    image: '/loan.webp',
   },
   {
     title: 'Calculator App',
@@ -39,7 +39,7 @@ const projects = [
     category: 'frontend',
     github: 'https://github.com/Aansa-123/Apexcify-Technology/tree/main/Calculator',
     demo: '#',
-    image: '/calculator.png',
+    image: '/calculator.webp',
   },
   {
     title: 'To-Do List App',
@@ -48,7 +48,7 @@ const projects = [
     category: 'frontend',
     github: 'https://github.com/Aansa-123/To-Do-List',
     demo: '#',
-    image: '/todo.png',
+    image: '/todolist.webp',
   },
   {
     title: 'Password Generator',
@@ -57,7 +57,7 @@ const projects = [
     category: 'frontend',
     github: 'https://github.com/Aansa-123/PasswordGenerator-project',
     demo: '#',
-    image: '/password.png',
+    image: '/password Generator.webp',
   },
 ];
 
