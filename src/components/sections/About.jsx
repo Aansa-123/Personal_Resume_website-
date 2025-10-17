@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const downloadResume = async () => {
   try {
-    const url = "https://i.postimg.cc/HkppZ1sN/Aansa-Rani-CV.png";
+    const url = "https://dl.dropboxusercontent.com/scl/fi/viefmgzdc9r5gaevbtqwl/Aansa-Rani-CV.pdf";
     
     // Fetch the file
     const response = await fetch(url);
@@ -18,7 +18,7 @@ const downloadResume = async () => {
     // Create a temporary anchor element and trigger download
     const link = document.createElement('a');
     link.href = blobUrl;
-    link.download = 'Aansa-Rani-CV.png';
+    link.download = 'Aansa-Rani-CV.pdf';
     document.body.appendChild(link);
     link.click();
     
@@ -28,7 +28,7 @@ const downloadResume = async () => {
   } catch (error) {
     console.error('Download failed:', error);
     // Fallback: open in new tab if download fails
-    window.open("https://i.postimg.cc/HkppZ1sN/Aansa-Rani-CV.png", "_blank");
+    window.open("https://dl.dropboxusercontent.com/scl/fi/viefmgzdc9r5gaevbtqwl/Aansa-Rani-CV.pdf", "_blank");
   }
 };
 
