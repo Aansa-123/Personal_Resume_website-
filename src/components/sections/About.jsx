@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const downloadResume = async () => {
   try {
-    const url = "https://dl.dropboxusercontent.com/scl/fi/viefmgzdc9r5gaevbtqwl/Aansa-Rani-CV.pdf";
+    const url = "https://drive.google.com/uc?export=download&id=1gpdB3QttgvRy319c_qa23aDB71WRDtMN";
     
     // Fetch the file
     const response = await fetch(url);
@@ -28,7 +28,7 @@ const downloadResume = async () => {
   } catch (error) {
     console.error('Download failed:', error);
     // Fallback: open in new tab if download fails
-    window.open("https://dl.dropboxusercontent.com/scl/fi/viefmgzdc9r5gaevbtqwl/Aansa-Rani-CV.pdf", "_blank");
+    window.open("https://drive.google.com/uc?export=download&id=1gpdB3QttgvRy319c_qa23aDB71WRDtMN", "_blank");
   }
 };
 
