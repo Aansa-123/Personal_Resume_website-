@@ -89,7 +89,7 @@ export function Hero() {
               transition={{ duration: 2, repeat: Infinity }}
             >
               <img 
-                src="https://i.postimg.cc/J0yq57TV/Aansa-Rani-professional.jpg" 
+                src="https://i.postimg.cc/rwk1Pj4W/Aansari-Rani-s-professional-resume.png" 
                 alt="Aansa Rani" 
                 className="w-full h-full rounded-full object-cover"
               />
