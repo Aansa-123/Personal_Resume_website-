@@ -30,7 +30,7 @@ const downloadResume = async () => {
     console.error("Download failed:", error);
     // Fallback: open in new tab if download fails
    window.open(
-    "https://drive.google.com/file/d/1J22ZXZbs0fitVxqV1wcfK_tlJSKRKIu1/view",
+    "https://drive.google.com/file/d/1zzlOP6daLoori5HYRarysKsyVlCy6jW0/view",
   "_blank",
 );
   }
