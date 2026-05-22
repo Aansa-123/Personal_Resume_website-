@@ -139,8 +139,7 @@ export function Hero() {
               transition={{ delay: 0.6 }}
               className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto"
             >
-              Highly motivated Full Stack Developer skilled in building and maintaining 
-              web applications using React, Node, Express, and MongoDB.
+              Building scalable, production-ready web applications with React, Node.js, and AWS. Focused on clean architecture, real-time systems, and shipping things that actually work.
             </motion.p>
           </motion.div>
 

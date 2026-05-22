@@ -65,7 +65,7 @@ export function Quote() {
               transition={{ delay: 0.3 }}
               className="text-2xl md:text-3xl font-medium leading-relaxed"
             >
-              “Programming isn’t about what you know; it’s about what you can figure out.”
+              "First, solve the problem. Then, write the code."
             </motion.blockquote>
 
             <motion.cite
@@ -75,7 +75,7 @@ export function Quote() {
               transition={{ delay: 0.5 }}
               className="text-lg text-muted-foreground not-italic block"
             >
-              — Chris Pine
+              — John Johnson
             </motion.cite>
           </div>
         </motion.div>

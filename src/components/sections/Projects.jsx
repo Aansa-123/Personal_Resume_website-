@@ -5,6 +5,15 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 
 const projects = [
+   {
+    title: 'Invoice Pro',
+    description: 'A full-stack SaaS ERP inspired by Zoho and Odoo — featuring multi-org support, role-based access control, invoice generation, inventory tracking, sales analytics, and real-time dashboards. Deployed to AWS EC2 with Nginx, PM2, SSL, and custom domain.',
+    tags: ['React', 'Node.js', 'MongoDB', 'Express'],
+    category: 'fullstack',
+    github: 'https://github.com/Aansa-123/invoice-backend',
+    demo: 'https://invoice-frontend-iq9h.vercel.app/',
+    image: '/invoice.jfif',
+  },
   {
     title: 'E-Commerce Website',
     description: 'Full-featured online store with product filters, shopping cart, and secure checkout',
@@ -23,14 +32,32 @@ const projects = [
     demo: 'https://mern-stack-blog-website.netlify.app/',
     image: '/blog.avif',
   },
+   {
+    title: 'Licence Generating Third party website',
+    description: 'Developed a third-party license management application for generating and validating secure software licenses for external websites and platforms.',
+    tags: ['React', 'PHP', 'MYSQL', 'JWT'],
+    category: 'other',
+    github: '#',
+    demo: 'https://pixsa.link/',
+    image: '/license.jfif',
+  },
   {
     title: 'Loan Website',
     description: 'Comprehensive loan management system with application tracking and approval workflow',
-    tags: ['React', 'Node.js', 'MongoDB', 'Express'],
-    category: 'fullstack',
+    tags: ['React', 'JavaScript', 'Tailwind'],
+    category: 'frontend',
     github: 'https://github.com/Aansa-123/Loan-Website',
     demo: 'https://loan-website-pi.vercel.app/',
     image: '/loan.webp',
+  },
+  {
+    title: 'Construction Company Website',
+    description: 'Modern construction company website with project showcase and contact information',
+    tags: ['React', 'JavaScript', 'Tailwind'],
+    category: 'frontend',
+    github: 'https://github.com/Aansa-123/Construction_Company',
+    demo: 'https://construction-company-orpin.vercel.app/',
+    image: '/construc.jfif',
   },
   {
     title: 'Calculator App',
@@ -59,9 +86,10 @@ const projects = [
     demo: '#',
     image: '/password Generator.webp',
   },
+ 
 ];
 
-const categories = ['all', 'fullstack', 'frontend'];
+const categories = ['all', 'fullstack', 'frontend' , 'other'];
 
 export function Projects() {
   const [activeCategory, setActiveCategory] = useState('all');

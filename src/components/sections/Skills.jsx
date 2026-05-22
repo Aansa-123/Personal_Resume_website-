@@ -124,11 +124,7 @@ export function Skills() {
           </h3>
           <div className="flex flex-col md:flex-row items-center gap-10 relative z-10">
             <p className="text-muted-foreground flex-1 text-center md:text-left">
-              Continuously expanding my skill set and staying updated with the
-              latest technologies. I enjoy experimenting with new tools and
-              frameworks to build efficient and modern web applications. Always
-              seeking opportunities to learn, grow, and contribute to innovative
-              projects.
+              Continuously levelling up across cloud infrastructure, system design, and modern tooling. I experiment, build side projects, and stay close to where the industry is heading.
             </p>
             <div className="w-full md:w-94 flex-shrink-0">
               <DotLottieReact

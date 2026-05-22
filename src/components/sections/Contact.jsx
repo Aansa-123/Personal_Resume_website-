@@ -65,7 +65,7 @@ export function Contact() {
             className="text-4xl md:text-5xl font-bold mb-4"
             whileHover={{ scale: 1.05 }}
           >
-            Get In <span className="text-gradient">Touch</span>
+            Let's build something <span className="text-gradient">together</span>
           </motion.h2>
           <motion.div 
             className="w-20 h-1 gradient-primary mx-auto rounded-full"
@@ -81,7 +81,8 @@ export function Contact() {
             viewport={{ once: false, amount: 0.3 }}
             transition={{ delay: 0.3 }}
           >
-            Have a project in mind? Let's work together to create something amazing
+           <span> Have a project in mind, an open role, or just want to say hi? </span> <br />
+           <span> My inbox is always open.</span>
           </motion.p>
         </motion.div>
 
